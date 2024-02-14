@@ -17,7 +17,7 @@ You can install NLGeoCities via pip:
   pip install nl-ego-cities
 ```
 
-pypi page link is here:
+pypi page link is here:   
 (https://pypi.org/project/nl-ego-cities/)    
 
 The documentation for NLGeoCities can be found here:      
