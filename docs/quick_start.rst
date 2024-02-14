@@ -1,7 +1,7 @@
 Quick Start
 ==============================
 
-Get City Coordinates JSON File from NLGeoCities
+Get City Coordinates
 ----------------------------------------------------
 
 To get started, you can obtain a JSON file containing city coordinates from NLGeoCities. Here's how to do it in Python:
@@ -31,8 +31,13 @@ If you have a DataFrame and want to add latitude and longitude columns using NLG
     # Assuming 'df' is your DataFrame with a 'city' column
     df['city_lat'], df['city_lon'] = get_lat_lon(df, 'city', find_similar=False)
 
+    # Alternatively, to find similar city names if exact matches are not found
+    latitudes, longitudes = get_lat_lon(df, 'city', find_similar=True)
+
+
 .. note::
-    The keys in the JSON file are lowercase.
+    The keys in the JSON file are lowercase.   
+    The `find_similar` parameter is optional and defaults to `False`. Set it to `True` if you want to find similar city names if exact matches are not found.
 
 
 city_coords Data Structure
