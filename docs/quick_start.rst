@@ -29,7 +29,7 @@ If you have a DataFrame and want to add latitude and longitude columns using NLG
     from nl_ego_cities.load_city_data import get_lat_lon
 
     # Assuming 'df' is your DataFrame with a 'city' column
-    df['city_lat'], df['city_lon'] = get_lat_lon(df, 'city')
+    df['city_lat'], df['city_lon'] = get_lat_lon(df, 'city', find_similar=False)
 
 .. note::
     The keys in the JSON file are lowercase.
