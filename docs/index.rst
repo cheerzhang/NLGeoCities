@@ -16,7 +16,7 @@ Contents:
    :caption: Contents:
 
    installation
-   usage
+   quick_start
    contributing
    license
 

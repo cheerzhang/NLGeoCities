@@ -5,8 +5,6 @@ This guide provides instructions on how to install NLGeoCities, a dataset contai
 For additional details and updates, please visit the `NLGeoCities PyPI page <https://pypi.org/project/nl-ego-cities/>`.
 
 
-
-
 .. note::
    NLGeoCities requires Python 3.12 or later.
 
