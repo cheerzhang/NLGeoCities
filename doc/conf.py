@@ -9,10 +9,10 @@ sys.path.insert(0, os.path.abspath('../nl_ego_cities/'))
 
 project = 'nl-ego-cities'
 copyright = '2024, LeZhang'
-author = 'LeZhang'
+author = 'L.Z'
 
-release = '0.5.1'
-version = '0.5.1'
+release = '0.1.1'
+version = '0.1.1'
 
 # -- General configuration
 
