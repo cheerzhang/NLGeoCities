@@ -35,3 +35,19 @@ If you have a DataFrame and want to add latitude and longitude columns using NLG
     The keys in the JSON file are lowercase.
 
 
+city_coords Data Structure
+---------------------------
+
+.. code-block:: json
+
+    {
+        "amsterdam": {
+            "lat": 52.3676,
+            "lon": 4.9041
+        },
+        "rotterdam": {
+            "lat": 51.9225,
+            "lon": 4.4792
+        },
+    ...
+    }
