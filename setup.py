@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='nl-ego-cities',
-    version='0.1.11',
+    version='0.1.12',
     author="L.Z",
     author_email="zhangle@gmail.com",
     description="Data for Netherland Cities Coordinates",
