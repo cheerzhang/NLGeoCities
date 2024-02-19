@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='nl-ego-cities',
-    version='0.1.16',
+    version='0.1.17',
     author="L.Z",
     author_email="zhangle@gmail.com",
     description="Data for Netherland Cities Coordinates",
@@ -28,5 +28,5 @@ setuptools.setup(
         'numpy>=1.21.5',
         'cdifflib>=1.2.6'
     ],
-    python_requires=">=3.11",
+    python_requires=">=3.11.2",
 )
