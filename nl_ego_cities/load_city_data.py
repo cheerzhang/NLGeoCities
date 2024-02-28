@@ -44,6 +44,8 @@ def get_lat_lon(df, city_column: str, find_similar: bool = False) -> Tuple[list,
     Returns:
         Tuple containing lists of latitude and longitude values.
     """
+    df[city_column] = df[city_column].fillna('')
+    df[city_column] = df[city_column].str.lower()
     if find_similar:
         df['similar_city'] = df[city_column].apply(lambda x: find_most_similar_city(x))
     else:
